@@ -14,6 +14,7 @@ public class JDBCConnection {
 	      String databseUserName = "root";
 	      String databasePassword = "Texas@123";
 	      System.out.println("git commands eclipse worspace");
+	      System.out.println("git commands develop branch change eclipse worspace");
 	      Connection conn = DriverManager.getConnection(MySQLURL,databseUserName,databasePassword);
 	      
 	      Statement stat = conn.createStatement();
@@ -27,6 +28,11 @@ public class JDBCConnection {
 	    	  //after this we can use datas from database in our selenium testing
 	      }
 
+	}
+	
+	public static void GitDemoDownload1()
+	{
+		System.out.println("added for git demo eclipse");
 	}
 
 }
