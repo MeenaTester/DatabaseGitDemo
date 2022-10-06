@@ -40,5 +40,9 @@ public class SauceLabJDBCConnection {
 		
 
 	}
+	public static void GitDemoDownload()
+	{
+		System.out.println("added for git demo download");
+	}
 
 }
