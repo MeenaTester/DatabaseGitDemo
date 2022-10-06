@@ -13,7 +13,7 @@ public class JDBCConnection {
 		  String MySQLURL = "jdbc:mysql://"+host+":"+port+"/"+databasename;
 	      String databseUserName = "root";
 	      String databasePassword = "Texas@123";
-	      
+	      System.out.println("git commands eclipse worspace");
 	      Connection conn = DriverManager.getConnection(MySQLURL,databseUserName,databasePassword);
 	      
 	      Statement stat = conn.createStatement();

@@ -25,8 +25,9 @@ public class SauceLabJDBCConnection {
 		ResultSet rs = stat.executeQuery("select * from credentials");
 		while(rs.next())
 		{
-			System.out.println(rs.getString("git commands downloads+ "+"username"));
-			System.out.println(rs.getString("git commands downloads+ "+"password"));
+			System.out.println("git commands downloads+ "+rs.getString("username"));
+			System.out.println("git commands downloads+ "+rs.getString("password"));
+			System.out.println("git commands eclipse worspace");
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\revan\\OneDrive\\Desktop\\Selenium_Notes\\SeleniumGrid\\SeleniumGrid\\chromedriver.exe");
 			WebDriver driver = new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
